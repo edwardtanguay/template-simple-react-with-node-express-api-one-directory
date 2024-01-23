@@ -1,27 +1,21 @@
-# vite-react-menu-createbrowserrouter
+# Vite-React with simple Node/Express API in one directory
 
-![282296992-671b5714-905c-4356-8803-6b71896a6580](https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter/assets/446574/0f0b1b83-5d93-4822-80b0-af27406a621b)
+![grafik](https://github.com/edwardtanguay/template-simple-react-with-node-express-api-one-directory/assets/446574/1d5e0ecc-e269-4cea-91b1-0ac6062ea94c)
 
-## features
+## Features
 
-- Vite
-- React
-- React Router 6.4 with createBrowserRouter
-- TypeScript
-- Sass
-- Tailwind
-- ESLint
-- Prettier
+- frontend and backend API in one directory
+- TypeScript in frontend and backend
+- ES6 modules in frontend and backend
+- frontend
+  - Vite React
+  - createReactRouter
+- backend API
+  - data fetching from external API
+  - recursive directory scan to get number of files
 
-## setup
+## Uses
 
-- `npm i`
-- `npm run dev`
-
-## if you want the older router syntax
-
-- [React Router 6.4 with browserRouter](https://github.com/edwardtanguay/vite-react-menu-browserrouter)
-
-## if you want a site without a menu
-
-- [Vite React](https://github.com/edwardtanguay/vite-react)
+- this is a good template if you want to build a local app
+  - with a React frontend
+  - that fetches data from the backend that has access to the file system, databases, etc.
